@@ -1,0 +1,11 @@
+[package]
+name = "sui-project"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = "1.29.1"
+sui-sdk  = { git = "https://github.com/MystenLabs/sui.git", branch = "devnet" }
+sui-json-rpc-types = { git = "https://github.com/MystenLabs/sui.git", branch = "devnet" }
